@@ -1,0 +1,93 @@
+body {
+  background: #ccd0d9;
+}
+
+.App {
+  text-align: center;
+}
+
+.Header {
+  background: #222222;
+  line-height: 70px;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.PlayerSelection {
+  border-bottom: 2px solid #151515;
+  padding: 15px 0;
+  background: white;
+}
+.PlayerSelection h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.Player {
+  display: inline-block;
+  padding: 3px 0;
+  width: 25px;
+  border-radius: 4px;
+  margin-right: 6px;
+  background: #ccd0d9;
+}
+.Player.Playing {
+  background: #70af56;
+  color: white;
+}
+
+.Game {
+  padding: 30px 0;
+  height: 100%;
+}
+
+.Game h2 {
+  margin: 0;
+}
+.Game h3 {
+  padding: 10px 0;
+  color: #149acc;
+}
+
+.container {
+  background: #fff;
+  width: 750px;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.Pin {
+  display: inline-block;
+  width: 30px;
+  height: 100px;
+  margin-right: 12px;
+  text-align: center;
+  background: #199acc;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #dedede;
+}
+.Pin.pin-selected {
+  background: #70af56;
+}
+.Pin.removed {
+  background: #f5f7fa;
+}
+
+button {
+  margin: 20px auto;
+  border: 2px solid #7db469;
+  padding: 8px;
+  border-radius: 22px;
+  background: white;
+  display: block;
+  width: 90%;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
